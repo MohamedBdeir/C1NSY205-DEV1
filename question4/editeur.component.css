@@ -1,0 +1,33 @@
+
+form {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: blue;
+    border: 0;
+    color: white;
+    border-radius: 0.3em;
+    padding: 0.5em;
+}
+
+textarea
+{
+    width: 90vw;
+    height: 80vh;
+    margin:1em;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .container
+    {
+        margin: 0.5em;
+        max-width: 95vw;
+        
+    }
+  }
+
